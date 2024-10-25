@@ -6,7 +6,6 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Card, CardContent } from "@/components/ui/card"
-import Image from 'next/image';
 
 export function PortfolioComponent() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -69,9 +68,11 @@ export function PortfolioComponent() {
               <Linkedin className="h-8 w-8" />
             </a>
           </div>
-          <Button variant="secondary" size="lg">
-            <Download className="mr-2 h-4 w-4" /> Download CV
-          </Button>
+          <a href="/cv.pdf" download>
+            <Button variant="secondary" size="lg">
+              <Download className="mr-2 h-4 w-4" /> Download CV
+            </Button>
+          </a>
         </div>
         <div className="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-gray-100 to-transparent"></div>
       </section>
