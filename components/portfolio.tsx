@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { Menu, X, Download, Github, Linkedin, Mail, Phone, Award, Book, Code, Database, Server, Cpu, Layers, Monitor, Wrench, Briefcase, Heart, Microchip } from 'lucide-react'
+import { Menu, X, Download, Github, Linkedin, Mail, Phone, Award, University, School, BrainCircuit, CircuitBoard, Brain, Code, GitFork, Server, Cpu, Layers, Monitor, Briefcase, Heart, Microchip } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
@@ -109,7 +109,7 @@ export function PortfolioComponent() {
           <Card className="max-w-2xl mx-auto">
             <CardContent className="p-6">
               <div className="flex items-center mb-4">
-                <Book className="h-8 w-8 text-blue-500 mr-4" />
+                <University className="h-8 w-8 text-blue-500 mr-4" />
                 <div>
                   <h3 className="text-xl font-bold">B.Tech in Electronics and Communication Engineering</h3>
                   <p className="text-gray-600">Central University of Rajasthan, Ajmer, Rajasthan</p>
@@ -122,7 +122,7 @@ export function PortfolioComponent() {
           <Card className="max-w-2xl mx-auto mt-4">
             <CardContent className="p-6">
               <div className="flex items-center mb-4">
-                <Book className="h-8 w-8 text-blue-500 mr-4" />
+                <School className="h-8 w-8 text-blue-500 mr-4" />
                 <div>
                   <h3 className="text-xl font-bold">Senior Secondary Education, CBSE</h3>
                   <p className="text-gray-600">DAV Public School Midnapore, West Bengal</p>
@@ -135,7 +135,7 @@ export function PortfolioComponent() {
           <Card className="max-w-2xl mx-auto mt-4">
             <CardContent className="p-6">
               <div className="flex items-center mb-4">
-                <Book className="h-8 w-8 text-blue-500 mr-4" />
+                <School className="h-8 w-8 text-blue-500 mr-4" />
                 <div>
                   <h3 className="text-xl font-bold">High School Education, CBSE</h3>
                   <p className="text-gray-600">DAV Public School Midnapore, West Bengal</p>
@@ -195,7 +195,7 @@ export function PortfolioComponent() {
             <Card>
               <CardContent className="p-6">
                 <div className="flex items-center mb-4">
-                  <Code className="h-8 w-8 text-blue-500 mr-4" />
+                  <BrainCircuit className="h-8 w-8 text-blue-500 mr-4" />
                   <div>
                     <h3 className="text-xl font-bold">Deep Learning-Based Product Detection</h3>
                     <p className="text-gray-600 mb-2">Flipkart Grid | Sept – Oct 2024</p>
@@ -211,7 +211,7 @@ export function PortfolioComponent() {
             <Card>
               <CardContent className="p-6">
                 <div className="flex items-center mb-4">
-                  <Cpu className="h-8 w-8 text-blue-500 mr-4" />
+                  <CircuitBoard className="h-8 w-8 text-blue-500 mr-4" />
                   <h3 className="text-xl font-bold">8051 Custom Development Board</h3>
                 </div>
                 <p className="text-gray-600 mb-2">Embedded Systems, KiCAD, Microcontrollers, C | Nov 2023</p>
@@ -241,7 +241,7 @@ export function PortfolioComponent() {
             <Card>
               <CardContent className="p-6">
                 <div className="flex items-center mb-4">
-                  <Monitor className="h-8 w-8 text-blue-500 mr-4" />
+                  <Brain className="h-8 w-8 text-blue-500 mr-4" />
                   <h3 className="text-xl font-bold">Edge Detection</h3>
                 </div>
                 <p className="text-gray-600 mb-2">MATLAB | Feb 2023</p>
@@ -269,7 +269,7 @@ export function PortfolioComponent() {
             <Card>
               <CardContent className="p-6">
                 <div className="flex items-center mb-4">
-                  <Layers className="h-8 w-8 text-blue-500 mr-4" />
+                  <GitFork className="h-8 w-8 text-blue-500 mr-4" />
                   <h3 className="text-xl font-bold">Frameworks/Libraries</h3>
                 </div>
                 <p>PyTorch, TensorFlow, Selenium, OpenCV, Numpy, Pandas, Matplotlib, Flask, Django</p>
@@ -287,7 +287,7 @@ export function PortfolioComponent() {
             <Card>
               <CardContent className="p-6">
                 <div className="flex items-center mb-4">
-                  <Cpu className="h-8 w-8 text-blue-500 mr-4" />
+                  <CircuitBoard className="h-8 w-8 text-blue-500 mr-4" />
                   <h3 className="text-xl font-bold">PCB Design Tools</h3>
                 </div>
                 <p>KiCAD, ExpressPCB</p>
