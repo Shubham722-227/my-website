@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Card, CardContent } from "@/components/ui/card"
+import Image from 'next/image';
 
 export function PortfolioComponent() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -84,14 +85,14 @@ export function PortfolioComponent() {
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-8 md:mb-0">
               <div className="relative w-64 h-64 mx-auto">
-                <img 
-                  src="/shubham.jpg" alt="Shubham Singh" className="rounded-full w-full h-full object-cover"/>
+                <Image
+                  src="/shubham.jpg" alt="Shubham Singh" className="rounded-full w-full h-full object-cover" layout="fill" objectFit="cover" />
                 <div className="absolute inset-0 rounded-full border-4 border-blue-500 opacity-75"></div>
               </div>
             </div>
             <div className="md:w-1/2">
               <p className="text-lg mb-4">
-                I'm a passionate Electronics and Communication Engineering graduate with a keen interest in AI and innovation. My journey in technology has led me to explore various aspects of electronics, signal processing, and artificial intelligence.
+                I&apos;m a passionate Electronics and Communication Engineering graduate with a keen interest in AI and innovation. My journey in technology has led me to explore various aspects of electronics, signal processing, and artificial intelligence.
               </p>
               <p className="text-lg mb-4">
                 With a strong foundation in both hardware and software, I strive to bridge the gap between theoretical concepts and practical applications. My goal is to contribute to cutting-edge technologies that can make a positive impact on society.
