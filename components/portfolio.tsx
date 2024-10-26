@@ -65,7 +65,7 @@ export function PortfolioComponent() {
             <a href="https://github.com/Shubham722-227" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-200 transition-colors">
               <Github className="h-8 w-8" />
             </a>
-            <a href="https://linkedin.com/in/shubham-singh" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-200 transition-colors">
+            <a href="https://www.linkedin.com/in/shubham-singh-0598461aa/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-200 transition-colors">
               <Linkedin className="h-8 w-8" />
             </a>
           </div>
