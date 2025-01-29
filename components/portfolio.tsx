@@ -160,7 +160,7 @@ export function PortfolioComponent() {
                   <Briefcase className="h-8 w-8 text-blue-500 mr-4" />
                   <div>
                     <h3 className="text-xl font-bold">Signal Processing and AI Intern</h3>
-                    <p className="text-gray-600 mb-4">PARAS ANTI-DRONE TECHNOLOGIES PVT. LTD. | Jun 2024 – Present</p>
+                    <p className="text-gray-600 mb-4">PARAS ANTI-DRONE TECHNOLOGIES PVT. LTD. | Jun 2024 – Dec 2024</p>
                   </div>
                 </div>
                 <ul className="list-disc list-inside space-y-2">
@@ -264,7 +264,7 @@ export function PortfolioComponent() {
                   <Code className="h-8 w-8 text-blue-500 mr-4" />
                   <h3 className="text-xl font-bold">Programming Languages</h3>
                 </div>
-                <p>C, Assembly, C++, Python, Bash, Go, HTML, CSS, SQL, PHP, MIPS, MATLAB/Octave</p>
+                <p>C, Assembly, C++, Python, Bash, Go, HTML, CSS, SQL, PHP, MIPS, MATLAB/Octave, Verilog, VHDL</p>
               </CardContent>
             </Card>
             <Card>
@@ -327,7 +327,7 @@ export function PortfolioComponent() {
                   <Cpu className="h-8 w-8 text-blue-500 mr-4" />
                   <h3 className="text-xl font-bold">Embedded Systems</h3>
                 </div>
-                <p>8051 Microcontroller, STM32 series, Raspberry Pi 3, ESP32, ESP8266, ESP Cameras, Arduino Uno</p>
+                <p>8051 Microcontroller, STM32 series, Raspberry Pi 3, ESP32, ESP8266, ESP Cameras, Arduino Uno, ARM, RTOS</p>
               </CardContent>
             </Card>
           </div>
